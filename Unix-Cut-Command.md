@@ -1,6 +1,5 @@
 #CUT COMMAND IN UNIX ( LINUX) EXAMPLES
 ---------------------------------------
-Courtesy: http://www.folkstalk.com/2012/02/cut-command-in-unix-linux-examples.html
 
 Cut command in unix (or linux) is used to select sections of text from each line of files. You can use the cut command to select fields or columns from a line by specifying a delimiter or you can select a portion of text by specifying the range or characters. Basically the cut command slices a line and extracts the text.
 
@@ -115,3 +114,7 @@ First reverse the text in each line and then apply the command on it.
 ```
 rev filenames.txt | cut -d'.' -f1
 ```
+
+Reference: 
+------------
+http://www.folkstalk.com/2012/02/cut-command-in-unix-linux-examples.html

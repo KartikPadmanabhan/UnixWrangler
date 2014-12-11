@@ -104,7 +104,7 @@ As is the case with other commands on Unix-like operating systems, additional in
 or
 
 ```
-info tail
+   info tail
 ```
 
 Reference:

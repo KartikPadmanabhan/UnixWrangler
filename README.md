@@ -2,6 +2,8 @@ UnixWrangler
 ============
 Data Wrangling Tutorial With Advance Unix Commands
 
-Important Notes:
+Topics Presented:
 ================
+a. Unix Cut Command.
+b. Awk and Sed Overview.
 

@@ -8,7 +8,7 @@ Cut command in unix (or linux) is used to select sections of text from each line
 
 We will see the usage of cut command by considering the below text file as an example
 
-$$ cat file.txt
+$ cat file.txt
 unix or linux os
 is unix good os
 is linux good os

@@ -1,11 +1,11 @@
 #CUT COMMAND IN UNIX ( LINUX) EXAMPLES
-
+---------------------------------------
 Courtesy: http://www.folkstalk.com/2012/02/cut-command-in-unix-linux-examples.html
 
 Cut command in unix (or linux) is used to select sections of text from each line of files. You can use the cut command to select fields or columns from a line by specifying a delimiter or you can select a portion of text by specifying the range or characters. Basically the cut command slices a line and extracts the text.
 
 ## Unix Cut Command Example
-
+----------------------------
 We will see the usage of cut command by considering the below text file as an example
 
 ```
@@ -15,9 +15,9 @@ is unix good os
 is linux good os
 ```
 
-1. Write a unix/linux cut command to print characters by position?
+### Write a unix/linux cut command to print characters by position?
 
-The cut command can be used to print characters in a line by specifying the position of the characters. To print the characters in a line, use the -c option in cut command
+#### The cut command can be used to print characters in a line by specifying the position of the characters. To print the characters in a line, use the -c option in cut command
 
 ```
 >> cut -c4 file.txt
@@ -26,18 +26,18 @@ u
 l
 ```
 
-The above cut command prints the fourth character in each line of the file. You can print more than one character at a time by specifying the character positions in a comma separated list as shown in the below example
+#### The above cut command prints the fourth character in each line of the file. You can print more than one character at a time by specifying the character positions in a comma separated list as shown in the below example
 ```
 >> cut -c4,6 file.txt
 xo
 ui
 ln
 ```
-This command prints the fourth and sixth character in each line.
+#### This command prints the fourth and sixth character in each line.
 
-2.Write a unix/linux cut command to print characters by range?
+### Write a unix/linux cut command to print characters by range?
 
-You can print a range of characters in a line by specifying the start and end position of the characters.
+####You can print a range of characters in a line by specifying the start and end position of the characters.
 ```
 >> cut -c4-7 file.txt
 x or
@@ -62,7 +62,7 @@ If you omit the start and end positions, then the cut command prints the entire 
 ```
 >> cut -c- file.txt
 ```
-3.Write a unix/linux cut command to print the fields using the delimiter?
+### Write a unix/linux cut command to print the fields using the delimiter?
 
 You can use the cut command just as awk command to extract the fields in a file using a delimiter. The -d option in cut command can be used to specify the delimiter and -f option is used to specify the field position.
 ```
@@ -82,7 +82,7 @@ The above command prints the second and third field in each line.
 
 Note: If the delimiter you specified is not exists in the line, then the cut command prints the entire line. To suppress these lines use the -s option in cut command.
 
-4. Write a unix/linux cut command to display range of fields?
+### Write a unix/linux cut command to display range of fields?
 
 You can print a range of fields by specifying the start and end position.
 ```
@@ -96,7 +96,7 @@ To print the fields from second fields to last field, you can omit the last fiel
 ```
 >> cut -d' ' -f2- file.txt
 ```
-5. Write a unix/linux cut command to display the first field from /etc/passwd file?
+### Write a unix/linux cut command to display the first field from /etc/passwd file?
 
 The /etc/passwd is a delimited file and the delimiter is a colon (:). The cut command to display the first field in /etc/passwd file is
 ```

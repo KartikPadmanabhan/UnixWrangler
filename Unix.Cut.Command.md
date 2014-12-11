@@ -8,10 +8,12 @@ Cut command in unix (or linux) is used to select sections of text from each line
 
 We will see the usage of cut command by considering the below text file as an example
 
+```
 $ cat file.txt
 unix or linux os
 is unix good os
 is linux good os
+```
 
 1. Write a unix/linux cut command to print characters by position?
 

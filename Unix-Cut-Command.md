@@ -17,7 +17,7 @@ is linux good os
 
 ### Write a unix/linux cut command to print characters by position?
 
-#### The cut command can be used to print characters in a line by specifying the position of the characters. To print the characters in a line, use the -c option in cut command
+The cut command can be used to print characters in a line by specifying the position of the characters. To print the characters in a line, use the -c option in cut command
 
 ```
 >> cut -c4 file.txt
@@ -26,18 +26,18 @@ u
 l
 ```
 
-#### The above cut command prints the fourth character in each line of the file. You can print more than one character at a time by specifying the character positions in a comma separated list as shown in the below example
+The above cut command prints the fourth character in each line of the file. You can print more than one character at a time by specifying the character positions in a comma separated list as shown in the below example
 ```
 >> cut -c4,6 file.txt
 xo
 ui
 ln
 ```
-#### This command prints the fourth and sixth character in each line.
+This command prints the fourth and sixth character in each line.
 
 ### Write a unix/linux cut command to print characters by range?
 
-####You can print a range of characters in a line by specifying the start and end position of the characters.
+You can print a range of characters in a line by specifying the start and end position of the characters.
 ```
 >> cut -c4-7 file.txt
 x or
